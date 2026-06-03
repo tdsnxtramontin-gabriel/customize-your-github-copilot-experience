@@ -1,19 +1,35 @@
+# 📘 Assignment: Hangman Game Challenge
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Build the classic Hangman word-guessing game in Python. In this assignment, students will practice working with strings, loops, conditionals, random selection, and user input while creating an interactive terminal game.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Create the Hangman game loop
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Create a Python program that selects a random word from a predefined list and lets the player guess one letter at a time. After each guess, display the current progress of the word using underscores for letters that have not been guessed yet.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Randomly select a word from a predefined list of words
+- Accept single-letter guesses from the user
+- Display the current progress of the word in a format such as `_ _ _ _`
+- Reveal correctly guessed letters in their proper positions
+- Continue running until the word is fully guessed or the player runs out of attempts
+
+### 🛠️ Track mistakes and show the game result
+
+#### Description
+Add logic to keep track of incorrect guesses and remaining attempts. At the end of the game, display a clear message telling the player whether they won or lost, and reveal the word if they did not guess it in time.
+
+#### Requirements
+Completed program should:
+
+- Track the number of incorrect guesses remaining
+- Reduce the remaining attempts only when the player guesses a letter that is not in the word
+- End the game with a win message when the player guesses the full word
+- End the game with a lose message when the player uses all available attempts
+- Show the hidden word at the end of the game if the player loses
