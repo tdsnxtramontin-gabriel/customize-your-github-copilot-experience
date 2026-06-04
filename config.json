@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "azure-functions-api-starter",
+      "title": "Azure Functions API Starter",
+      "description": "Build beginner-friendly serverless HTTP APIs in Python using Azure Functions and JSON request/response patterns.",
+      "path": "assignments/azure-functions-api-starter",
+      "dueDate": "2026-06-11",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
